@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AppEncontreiPraVoce": {
+    "meu-app-frontend": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -53,10 +53,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "AppEncontreiPraVoce:build:production"
+              "buildTarget": "meu-app-frontend:build:production"
             },
             "development": {
-              "buildTarget": "AppEncontreiPraVoce:build:development"
+              "buildTarget": "meu-app-frontend:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,5 +81,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

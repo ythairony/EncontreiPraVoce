@@ -1,0 +1,20 @@
+# Arquivo .gitignore para o projeto EncontreiPraVoce (C# + Angular)
+
+### Regras Gerais ###
+.vscode/
+
+### Regras para o Backend .NET/C# ###
+backend/bin/
+backend/obj/
+backend/appsettings.Development.json
+
+### Regras para o Frontend Angular/Node ###
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/cache/
+frontend/npm-debug.log*
+frontend/e2e/
+frontend/coverage/
+
+# Arquivos de log e temporários
+*.log
