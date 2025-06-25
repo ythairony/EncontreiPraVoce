@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EncontreiPraVoce
+namespace EncontreiPraVoce.Models
 {
     public class AcheiNaRuaPost
     {

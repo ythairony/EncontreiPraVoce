@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
-namespace EncontreiPraVoce
+namespace EncontreiPraVoce.Models
 {
     public class PerguntaConfirmacao
     {
@@ -10,7 +10,7 @@ namespace EncontreiPraVoce
         public required string Pergunta { get; set; }
 
         // Uma pergunta tem 3 opções
-        public List<OpcaoREsposta> Opcoes { get; set; } = new();
+        public List<OpcaoResposta> Opcoes { get; set; } = new();
 
         // Chave para o post
         public int AcheiNaRuaPostId { get; set; }
